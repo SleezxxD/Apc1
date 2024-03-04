@@ -6,12 +6,14 @@
 
 int main() {
 
-  float gigabytes = 00;
+  float gigabytes = 1024^3;
+  float quantidade_gb = 00;
+  
   printf("entre com o valor em gigabytes: ");
-  scanf("%f", &gigabytes);
+  scanf("%f", &quantidade_gb);
 
-  float bytes = 1024 * 1024 * 1024;
-
-  float valor_em_bytes = 
+  float valor_em_bytes = quantidade_gb * gigabytes;
+  printf("O valor em bytes é %f\n", valor_em_bytes);
+  
   return 0;
 }
