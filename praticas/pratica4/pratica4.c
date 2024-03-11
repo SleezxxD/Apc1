@@ -6,7 +6,7 @@
 
 int main() {
 
-  float gigabytes = 1024^3;
+  float gigabytes = 1024;
   float quantidade_gb = 00;
   
   printf("entre com o valor em gigabytes: ");
