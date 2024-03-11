@@ -22,10 +22,10 @@ const float IR = 0.25f;
 printf("\x1b[32m--------------------------------\n");
   printf("           CONTRA CHEQUE        \n");
   printf("--------------------------------\x1b[0m\n");
-  printf("\x1b[33mSalario bruto :  R$ %11.2f\x1b[0m\n", salario_bruto);
-  printf("\x1b[31mValor IR :      R$ %15.2f\x1b[0m\n", valor_ir);
-  printf("\x1b[31mValor INSS :      R$ %13.2f\x1b[0m\n", valor_inss);
-  printf("\x1b[32mSalario liquido : R$ %9.2f\x1b[0m\n", salario_liquido);
+  printf("\x1b[33mSalario bruto : %11.2f\x1b[0m\n", salario_bruto);
+  printf("\x1b[31mValor IR : %15.2f\x1b[0m\n", valor_ir);
+  printf("\x1b[31mValor INSS : %13.2f\x1b[0m\n", valor_inss);
+  printf("\x1b[32mSalario liquido : %9.2f\x1b[0m\n", salario_liquido);
   printf("\x1b--------------------------------\x1b[0m\n");
   
   return 0;
