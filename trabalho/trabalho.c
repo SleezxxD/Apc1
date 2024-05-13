@@ -5,7 +5,8 @@ int main() {
 int opcao;
 int nome;
 int ameaca;
-  
+int morte;
+
 printf("\x1b[37m Você acorda atordoado em meio a uma floresta mórbida, quando de repente você vê uma figura estranha a sua frente.\n");
 printf("Ele o cumprimenta, logo em seguida, se apresenta dizendo :\n");
 printf("Olá, me chamo Sr. lobo, qual o seu nome?\x1b[0m\n");
@@ -19,7 +20,7 @@ printf("2-Dizer que não sabe.\n");
 printf("3-Fugir.\n\n");
  
 int leu_certo = scanf("%i", &opcao); 
-  
+   
 switch (opcao){
 
   case 1: printf("\nDigite seu nome: ");
@@ -42,6 +43,7 @@ printf("1 - Não ande pela casa sem permissão\n");
 printf("\nA cada escolha errada, Você recebe uma ameaça, ao totalizar 3 ameaças, o lobo vai te matar.\n");
 printf("\nNúmero de ameaças: %i\n", ameaca);
 }
+
 
   
 return 0;
